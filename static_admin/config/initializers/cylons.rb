@@ -4,5 +4,4 @@
   config.remote_namespace = "StaticAdmin"
   config.port = "9022"
   config.registry_adapter = :zk
-  config.agent_mode = :static
 end
