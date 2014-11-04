@@ -6,6 +6,7 @@ class User < ActiveRecord::Base
   # remote_has_many :categories
   # remote_has_many :products
   # remote_has_many :departments
+  validates :name, :presence => true
 
   validates_uniqueness_of :email
 
